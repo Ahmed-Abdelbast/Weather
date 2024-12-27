@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   
+    <link rel="stylesheet" href="css/style.css">
+    
+
+
+
+</head>
+<body class="text-white">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">Weather</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-end ms-auto" id="navbarSupportedContent">
+    
+    
+             
+                    <li class="fa-brands fs-5 fa-facebook px-2"></li>
+                    <li class="fa-brands fs-5 fa-twitter px-2"></li>
+                    <li class="fa-brands fs-5 fa-github px-2"></li>
+                    <li class="fa-brands fs-5 fa-instagram px-2"></li>
+               
+                </div>
+    
+            </div>
+        </nav>
+    </header>
+    <main class="mb-5">
+        <section>
+
+            <div class="container">
+                <div class="">
+                    <form class="d-flex position-relative  p-3" role="search">
+                        <input class="form-control me-2 w-100 px-3 py-2 rounded-5" id="searchLoca" type="search" placeholder="Search for location" aria-label="Search">
+                        <button class="btn btn-primary   position-absolute btnDir rounded-5" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            <div class="py-3">
+                <h2 class="text-center locationName">cairo , Egpt ,cairo , Egypt</h2>
+            </div>
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-sm-12 col-md-5 mb-3">
+                        <div class="cardColor rounded-4 p-3">
+                            <div class="d-flex justify-content-between">
+                                <div class="" >
+                                    <h3 class="p-0">Current Weather</h3>
+                                    <p class="p-0 text-center textColor timeLoca">time</p>
+                                </div>
+                                <div class="sendWeather">                               
+                                        <div class="send rounded-5 ">
+                                            <p class="py-2 px-3"> <i class="fa-solid fa-comment"></i> different Weather ?</p>
+                                        </div>                               
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-start">
+                                <div class="w-100 px-4 ">
+                                    <img src="images/pngegg.png" class="w-100 ImageLoca" alt="">
+                                </div>
+                                <div class="px-3 pt-4">
+                                    <h2 class="h1"><span class="temp">25</span>°C</h2>
+                                </div>
+                                <div class="ps-5 pt-4">
+                                    <h3 class="tempText">suubny</h3>
+                                    <p class="text-center textColor "><span class="fell"></span>°</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+                                <div>
+                                    <p>wind air <i class="fa-solid fa-circle-exclamation"></i></p>
+                                    <p class="textColor"><span class="wind_k">25</span> Km/h<i class="fa-regular fa-paper-plane"></i></p>
+                                </div>
+                                <div class="ps-3">
+                                    <p>Humidity <i class="fa-solid fa-circle-exclamation"></i></p>
+                                    <p class="textColor">43% </i></p>
+                                </div>
+                                <div class="ps-3">
+                                    <p>Visibility <i class="fa-solid fa-circle-exclamation"></i></p>
+                                    <p class="textColor">10 Km</i></p>
+                                </div>
+                                <div class="ps-3">
+                                    <p>Pressure <i class="fa-solid fa-circle-exclamation"></i></p>
+                                    <p class="textColor">1021 mb</i></p>
+                                </div>
+
+                                <div class="ps-3">
+                                    <p>Dew <i class="fa-solid fa-circle-exclamation"></i></p>
+                                    <p class="textColor">8</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.445785295115!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1681863129691!5m2!1sen!2sus" frameborder="0"></iframe>
+                    </div>
+                </div>
+            
+            </div>
+
+        </section>
+    </main>
+    
+    <footer class="mt-5">
+        <div class="p-5">
+            <p class="text-center">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

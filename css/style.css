@@ -1,0 +1,50 @@
+:root{
+
+    --card-color :rgba(255, 255, 255, 0.07) ;
+    --main-color : rgb(23,30,68) ;
+}
+
+body {
+    background-color: var(--main-color)
+}
+.cardColor{
+    background-color:var(--card-color) ;
+ 
+}
+.send{
+    background-color: var(--main-color);
+    cursor: pointer;
+    color: rgb(102, 138, 227);
+}
+.textColor{
+    color: rgb(162, 160, 156);
+}
+
+
+.btnDir{
+    right: 30px;
+    top: 20px;
+    bottom: 20px;
+    
+    
+
+}
+
+
+footer{
+
+    background-color: var(--card-color);
+}
+@media screen and (max-width:768px) {
+    .sendWeather{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    .sendWeather{
+        width: 40%;
+    }
+    
+}
